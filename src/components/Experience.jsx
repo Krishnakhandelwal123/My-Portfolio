@@ -11,7 +11,7 @@ const experiences = [
       "Worked in a team to prototype a functional product within 24 hours.",
       "Presented the final solution to industry experts and faculty members.",
     ],
-    image: "./src/images/lnmiit.png",
+    image: "/images/lnmiit.png",
   },
   {
     title: "MUJ IIC Hackathon",
@@ -22,7 +22,7 @@ const experiences = [
       "Utilized machine learning algorithms for predictive analytics.",
       "Achieved recognition for innovative tech implementation.",
     ],
-    image: "./src/images/manipal.jpg",
+    image: "/images/manipal.jpg",
   },
   {
     title: "Mini Shark Tank - StoreCraft Pitch",
@@ -33,7 +33,7 @@ const experiences = [
       "Demonstrated live AI-powered sales analytics and chatbot integration.",
       "Received positive feedback from investors and startup mentors.",
     ],
-    image: "./src/images/shark.jpg",
+    image: "/images/shark.jpg",
   },
   {
     title: "Frontend Developer Intern",
@@ -44,7 +44,7 @@ const experiences = [
       "Worked on optimizing user experience for SaaS applications.",
       "Collaborated with backend teams to integrate API functionalities.",
     ],
-    image: "./src/images/bharat.png",
+    image: "/images/bharat.png",
   },
   {
     title: "Intern - Prodigy Infotech",
@@ -55,7 +55,7 @@ const experiences = [
       "Implemented frontend designs and backend APIs for client projects.",
       "Enhanced performance and responsiveness of web applications.",
     ],
-    image: "./src/images/prodigy.jpg",
+    image: "/images/prodigy.jpg",
   },
 ];
 

@@ -33,7 +33,7 @@ const Contact = () => {
           whileHover={{ scale: 1.05 }}
         >
           <img
-            src="./src/images/contact.png"
+            src="/images/contact.png"
             alt="Contact illustration"
             className="w-full max-w-sm md:max-w-md rounded-lg"
           />

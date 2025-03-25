@@ -69,7 +69,7 @@ const CenterImage = () => {
     >
       <video
         className="w-full h-full object-cover"
-        src="./src/assets/bg2.mp4" 
+        src="/assets/bg2.mp4" 
         autoPlay
         loop
         muted
@@ -77,7 +77,6 @@ const CenterImage = () => {
     </motion.div>
   );
 };
-
 
 const ParallaxImages = () => {
   return (

@@ -29,7 +29,7 @@ const Navbar = () => {
         <div>
           <img
             className="h-14 w-14 border-2 border-white rounded-full p-2 cursor-pointer hover:scale-105 transition duration-300"
-            src="./src/images/logo.jpg"
+            src="/images/logo.jpg"
             alt="Logo"
             onClick={handleclick}
           />

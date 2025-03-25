@@ -10,17 +10,17 @@ import {
   SiSpotify,
   SiTiktok,
   SiLeetcode,
-  SiGeeksforgeeks ,
-  SiGithub ,
-  SiCodingninjas ,
-  SiInstagram ,
+  SiGeeksforgeeks,
+  SiGithub,
+  SiCodingninjas,
+  SiInstagram,
 } from "react-icons/si";
 import { useAnimate } from "framer-motion";
 
 export const Footer1 = () => {
   return (
     <div className="bg-neutral-50 px-4 py-12">
-        <h1 className="font-semibold text-center mb-10 text-5xl">My Social Accounts</h1>
+      <h1 className="font-semibold text-center mb-10 text-5xl">My Social Accounts</h1>
       <div className="mx-auto max-w-7xl">
         <Example />
       </div>
@@ -32,16 +32,16 @@ const Example = () => {
   return (
     <div className="divide-y divide-neutral-900 border border-neutral-900">
       <div className="grid grid-cols-2 divide-x divide-neutral-900">
-        <LinkBox Icon={SiLeetcode} href="https://leetcode.com/u/krishnakhandelwal018/" target="_blank" />
-        <LinkBox Icon={SiGeeksforgeeks } href="https://www.geeksforgeeks.org/user/krishnakhandelwal018/?_gl=1*13m9nvy*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwqIm_BhDnARIsAKBYcmvgVHTFM0Xzqde4OoxY0OlX1EvOW60oD956JuiBILJo7qFg8tVK9g4aAslkEALw_wcB" />
+        <LinkBox Icon={SiLeetcode} href="https://leetcode.com/u/krishnakhandelwal018/" />
+        <LinkBox Icon={SiGeeksforgeeks} href="https://www.geeksforgeeks.org/user/krishnakhandelwal018/?_gl=1*13m9nvy*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwqIm_BhDnARIsAKBYcmvgVHTFM0Xzqde4OoxY0OlX1EvOW60oD956JuiBILJo7qFg8tVK9g4aAslkEALw_wcB" />
       </div>
       <div className="grid grid-cols-4 divide-x divide-neutral-900">
-        <LinkBox Icon={SiGithub  } href="https://github.com/Krishnakhandelwal123" />
-        <LinkBox Icon={SiCodingninjas } href="https://www.naukri.com/code360/profile/4da5e558-494b-411b-a61a-c72e2c4c8062" />
-        <LinkBox Icon={SiLinkedin } href="https://www.linkedin.com/in/krishna-khandelwal-470b30280/" />
-        <LinkBox Icon={SiInstagram } href="https://www.instagram.com/krishnakhandelwal018/?hl=en" />
+        <LinkBox Icon={SiGithub} href="https://github.com/Krishnakhandelwal123" />
+        <LinkBox Icon={SiCodingninjas} href="https://www.naukri.com/code360/profile/4da5e558-494b-411b-a61a-c72e2c4c8062" />
+        <LinkBox Icon={SiLinkedin} href="https://www.linkedin.com/in/krishna-khandelwal-470b30280/" />
+        <LinkBox Icon={SiInstagram} href="https://www.instagram.com/krishnakhandelwal018/?hl=en" />
       </div>
-      
+
     </div>
   );
 };

@@ -4,25 +4,25 @@ import { motion } from "framer-motion";
 const projects = [
   {
     name: "Text to Image",
-    img: "./src/images/Texttoimage.png",
+    img: "/images/Texttoimage.png",
     tech: ["Frontend: React, Tailwind", "Backend: Node.js, Express.js, MongoDB"],
     link: "https://github.com/Krishnakhandelwal123/text-to-image",
   },
   {
     name: "Meme Generator",
-    img: "./src/images/meme.png",
+    img: "/images/meme.png",
     tech: ["Frontend: React, Tailwind", "Backend: Node.js, Express.js, MongoDB"],
     link: "https://github.com/Krishnakhandelwal123/meme-coin",
   },
   {
     name: "Spotify Clone",
-    img: "./src/images/spotify.png",
+    img: "/images/spotify.png",
     tech: ["Frontend: HTML, CSS, JavaScript"],
     link: "https://github.com/Krishnakhandelwal123/spotify-clone",
   },
   {
     name: "Nike Store",
-    img: "./src/images/nike.png",
+    img: "/images/nike.png",
     tech: ["Frontend: HTML, CSS, JavaScript"],
     link: "https://github.com/Krishnakhandelwal123/nike-website-frontend",
   },
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     name: "GreenHive",
-    img: "./src/images/greenhive.png",
+    img: "/images/greenhive.png",
     tech: ["Frontend: React, Tailwind"],
     link: "https://github.com/Krishnakhandelwal123/GreenHive",
   },

@@ -28,7 +28,7 @@ const About2 = () => {
           animate={isInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          <img className="w-110 h-auto" src="./src/images/cube.png" alt="Cube" />
+          <img className="w-110 h-auto" src="/images/cube.png" alt="Cube" />
         </motion.div>
 
         {/* Right Side - Content */}

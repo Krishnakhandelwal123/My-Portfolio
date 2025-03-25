@@ -6,17 +6,17 @@ const About3 = () => {
   const isInView = useInView(ref, { once: false, margin: "-50px" }); // Triggers every time
 
   const logos = [
-    { src: "./src/images/html.jpg", alt: "html" },
-    { src: "./src/images/css.png", alt: "css" },
-    { src: "./src/images/js.png", alt: "js" },
-    { src: "./src/images/react.png", alt: "react" },
-    { src: "./src/images/github.png", alt: "github" },
-    { src: "./src/images/node.png", alt: "node" },
-    { src: "./src/images/mongo.png", alt: "mongo" },
-    { src: "./src/images/python.png", alt: "python" },
-    { src: "./src/images/cpp.webp", alt: "cpp" },
-    { src: "./src/images/tailwind.png", alt: "tailwind" },
-    { src: "./src/images/git.png", alt: "git" },
+    { src: "/images/html.jpg", alt: "html" },
+    { src: "/images/css.png", alt: "css" },
+    { src: "/images/js.png", alt: "js" },
+    { src: "/images/react.png", alt: "react" },
+    { src: "/images/github.png", alt: "github" },
+    { src: "/images/node.png", alt: "node" },
+    { src: "/images/mongo.png", alt: "mongo" },
+    { src: "/images/python.png", alt: "python" },
+    { src: "/images/cpp.webp", alt: "cpp" },
+    { src: "/images/tailwind.png", alt: "tailwind" },
+    { src: "/images/git.png", alt: "git" },
   ];
 
   return (
@@ -52,7 +52,7 @@ const About3 = () => {
             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            <img className="w-96 h-auto" src="./src/images/globe.png" alt="Globe" />
+            <img className="w-96 h-auto" src="/images/globe.png" alt="Globe" />
           </motion.div>
 
         </div>

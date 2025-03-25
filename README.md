@@ -1,12 +1,55 @@
-# React + Vite
+🚀 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a Frontend Developer & AI Enthusiast.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Features
 
-## Expanding the ESLint configuration
+Interactive and responsive UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Modern design with Tailwind CSS & Framer Motion
+
+Showcases my projects, skills, and experience
+
+Dynamic animations for a smooth user experience
+
+Dark mode support (if applicable)
+
+🛠️ Technologies Used
+
+Frontend: React.js, Tailwind CSS, Framer Motion
+
+Deployment: Vercel / Netlify / GitHub Pages
+
+Version Control: Git & GitHub
+
+📂 Project Structure
+
+|-- src/
+|   |-- components/
+|   |-- images/
+|   |-- pages/
+|-- public/
+|-- index.html
+|-- package.json
+|-- vite.config.js
+|-- README.md (This File)
+
+🚀 Getting Started
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/Krishnakhandelwal123/My-Portfolio.git
+cd My-Portfolio
+
+2️⃣ Install Dependencies
+
+npm install
+
+3️⃣ Start the Development Server
+
+npm run dev
+
+
+🔥 Follow Me on GitHub: Krishnakhandelwal123
+
